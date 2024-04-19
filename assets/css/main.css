@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#headerBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  border-bottom: 2px solid gray;
+}
+#headerBox .containerBox {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#headerBox .containerBox nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#headerBox .containerBox nav ul {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+#headerBox .containerBox nav ul i {
+  display: none;
+}
+#headerBox .containerBox nav ul li {
+  list-style-type: none;
+}
+#headerBox .containerBox nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+}
+#headerBox .containerBox .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+#headerBox .containerBox .text h1 {
+  font-family: "Anton";
+  color: #FD5F00;
+  letter-spacing: 5px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 991px) {
+  #headerBox .containerBox nav ul i {
+    display: block;
+  }
+  #headerBox .containerBox nav ul li {
+    display: none;
+  }
+}
+#firstSection .firstClass {
+  min-height: 100vh;
+  background-image: url(../../../assets/images/hero_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#secondSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#secondSection .a {
+  background-color: #4E4E4E;
+  padding: 40px;
+}
+#secondSection .a .textOnee {
+  border: 1px solid white;
+  padding: 40px;
+}
+#secondSection .a .textOnee h1 {
+  font-family: "Nunito Sans";
+}
+#secondSection .a .textOnee p {
+  font-family: "Nunito Sans";
+}
+#secondSection .b {
+  background-color: #FD5F00;
+  padding: 40px;
+}
+#secondSection .b .textOnee {
+  border: 1px solid white;
+  padding: 40px;
+}
+#secondSection .b .textOnee h1 {
+  font-family: "Nunito Sans";
+}
+#secondSection .b .textOnee p {
+  font-family: "Nunito Sans";
+}
+#secondSection .c {
+  background-color: #A23131;
+  padding: 40px;
+}
+#secondSection .c .textOnee {
+  border: 1px solid white;
+  padding: 40px;
+}
+#secondSection .c .textOnee h1 {
+  font-family: "Nunito Sans";
+}
+#secondSection .c .textOnee p {
+  font-family: "Nunito Sans";
+}
